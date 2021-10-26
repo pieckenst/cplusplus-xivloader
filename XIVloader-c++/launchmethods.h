@@ -7,7 +7,7 @@
 #include <stdexcept>
 #include <FileSystem>
 #include "stringhelper.h"
-
+#include "Program.h"
 
 using namespace System;
 using namespace System::Collections::Generic;

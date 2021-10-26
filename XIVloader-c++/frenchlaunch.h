@@ -8,6 +8,7 @@
 #include "stringhelper.h"
 
 #include "pch.h"
+#include "Program.h"
 
 //C# TO C++ CONVERTER TODO TASK: The C# 'using static' statement  cannot be converted to C++:
 //using static networklogic;

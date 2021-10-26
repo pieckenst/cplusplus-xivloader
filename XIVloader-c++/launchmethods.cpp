@@ -28,12 +28,12 @@ void LaunchMethods::EnglishLaunch(int language)
 	std::wcout << std::endl;
 	std::wcout << L"-------------------------------------" << std::endl;
 
-	if (ansys->KeyChar == L'1')
+	if (ansys.KeyChar == L'1')
 	{
 		//Console.WriteLine("-------------------------------------");
 		std::wcout << std::endl;
 		std::wstring gamePath;
-		if (FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\gamepath.txt)"))
+		if (File::Exists(Directory::GetCurrentDirectory() + LR"(\gamepath.txt)"))
 		{
 		  gamePath = GamePathLoad();
 		}
@@ -62,7 +62,7 @@ void LaunchMethods::EnglishLaunch(int language)
 		//Console.WriteLine("Provided username {0}", username);
 
 		std::wstring password;
-		if (FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\password.txt)") || FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\password.XIVloadEnc)") && FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\username.txt)"))
+		if (File::Exists(Directory::GetCurrentDirectory() + LR"(\password.txt)") || File::Exists(Directory::GetCurrentDirectory() + LR"(\password.XIVloadEnc)") && File::Exists(Directory::GetCurrentDirectory() + LR"(\username.txt)"))
 		{
 		  bool promter = false;
 		  std::wcout << L"Do you wish to use existing saved login and password? - ";
@@ -79,12 +79,12 @@ void LaunchMethods::EnglishLaunch(int language)
 		  if (promter == true)
 		  {
 			username = ReturnUsername();
-			TextReader *tr = gcnew StreamReader(L"privatekey.txt");
-			std::wstring keyread = tr->ReadLine();
+			TextReader tr = gcnew StreamReader(L"privatekey.txt");
+			std::wstring keyread = tr.ReadLine();
 			DecryptFile(L"password.XIVloadEnc",L"password.txt", keyread);
-			TextReader *prr = gcnew StreamReader(L"password.txt");
-			password = prr->ReadLine();
-			prr->Close();
+			TextReader prr = gcnew StreamReader(L"password.txt");
+			password = prr.ReadLine();
+			prr.Close();
 
 			delete prr;
 			delete tr;
@@ -114,7 +114,7 @@ void LaunchMethods::EnglishLaunch(int language)
 		}
 		//string maskpassword = "";
 		//for (int i = 0; i < password.Length; i++) { 
-		//maskpassword += "*"; 
+		//maskpassword += ""; 
 		//}
 
 
@@ -128,7 +128,7 @@ void LaunchMethods::EnglishLaunch(int language)
 		bool dx11 = false;
 		int expansionLevel;
 		int region;
-		if (FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\booleansandvars.txt)"))
+		if (File::Exists(Directory::GetCurrentDirectory() + LR"(\booleansandvars.txt)"))
 		{
 		   bool promterx = false;
 		   std::wcout << L"Do you wish to load existing params? - ";
@@ -188,13 +188,13 @@ void LaunchMethods::EnglishLaunch(int language)
 		  }
 		  std::wcout << L"Please enter your expansion pack level - Currently valid ones are \n 0- ARR - 1 - Heavensward - 2 - Stormblood - 3 - Shadowbringers" << std::endl;
 		  expansionLevel = std::stoi(Console::ReadLine());
-		  TextWriter *twxx = gcnew StreamWriter(L"booleansandvars.txt");
+		  TextWriter twxx = gcnew StreamWriter(L"booleansandvars.txt");
 		  std::wcout << L"Please provide a region for your client install - Currently valid ones are \n 1- Japan , 2 - America , 3 - International: - ";
 		  region = std::stoi(Console::ReadLine());
-		  twxx->WriteLine(dx1prompt);
-		  twxx->WriteLine(expansionLevel);
-		  twxx->WriteLine(region);
-		  twxx->Close();
+		  twxx.WriteLine(dx1prompt);
+		  twxx.WriteLine(expansionLevel);
+		  twxx.WriteLine(region);
+		  twxx.Close();
 
 			delete twxx;
 		}
@@ -217,10 +217,10 @@ void LaunchMethods::EnglishLaunch(int language)
 
 std::wstring LaunchMethods::ReturnUsername()
 {
-   TextReader *trx = gcnew StreamReader(L"username.txt");
-   std::wstring usernameread = trx->ReadLine();
+   TextReader trx = gcnew StreamReader(L"username.txt");
+   std::wstring usernameread = trx.ReadLine();
    std::wstring username = usernameread;
-   trx->Close();
+   trx.Close();
 
    delete trx;
    return username;
@@ -312,9 +312,9 @@ std::wstring LaunchMethods::GamePathWrite()
 {
    std::wstring gamePath;
    std::getline(std::wcin, gamePath);
-   TextWriter *tw = gcnew StreamWriter(L"gamepath.txt");
-   tw->WriteLine(gamePath);
-   tw->Close();
+   TextWriter tw = gcnew StreamWriter(L"gamepath.txt");
+   tw.WriteLine(gamePath);
+   tw.Close();
 
    delete tw;
    return gamePath;
@@ -322,10 +322,10 @@ std::wstring LaunchMethods::GamePathWrite()
 
 std::wstring LaunchMethods::GamePathLoad()
 {
-   TextReader *tr = gcnew StreamReader(L"gamepath.txt");
-   std::wstring gamePathread = tr->ReadLine();
+   TextReader tr = gcnew StreamReader(L"gamepath.txt");
+   std::wstring gamePathread = tr.ReadLine();
    std::wstring gamePath = gamePathread;
-   tr->Close();
+   tr.Close();
    std::wcout << gamePath << std::endl;
 
    delete tr;
@@ -334,10 +334,10 @@ std::wstring LaunchMethods::GamePathLoad()
 
 std::wstring LaunchMethods::dx1readd()
 {
-   TextReader *tr = gcnew StreamReader(L"booleansandvars.txt");
-   std::wstring dx1reader = tr->ReadLine();
+   TextReader tr = gcnew StreamReader(L"booleansandvars.txt");
+   std::wstring dx1reader = tr.ReadLine();
    std::wstring dx1prompt = dx1reader;
-   tr->Close();
+   tr.Close();
 
    delete tr;
    return dx1prompt;
@@ -345,11 +345,11 @@ std::wstring LaunchMethods::dx1readd()
 
 int LaunchMethods::exlevelread()
 {
-  TextReader *tr = gcnew StreamReader(L"booleansandvars.txt");
-  std::wstring blankreader = tr->ReadLine();
-  std::wstring exlevelreader = tr->ReadLine();
+  TextReader tr = gcnew StreamReader(L"booleansandvars.txt");
+  std::wstring blankreader = tr.ReadLine();
+  std::wstring exlevelreader = tr.ReadLine();
   int expansionLevel = std::stoi(exlevelreader);
-  tr->Close();
+  tr.Close();
 
   delete tr;
   return expansionLevel;
@@ -357,12 +357,12 @@ int LaunchMethods::exlevelread()
 
 int LaunchMethods::regionread()
 {
-  TextReader *tr = gcnew StreamReader(L"booleansandvars.txt");
-  std::wstring blankreaderone = tr->ReadLine();
-  std::wstring blankreadertwo = tr->ReadLine();
-  std::wstring regionreader = tr->ReadLine();
+  TextReader tr = gcnew StreamReader(L"booleansandvars.txt");
+  std::wstring blankreaderone = tr.ReadLine();
+  std::wstring blankreadertwo = tr.ReadLine();
+  std::wstring regionreader = tr.ReadLine();
   int region = std::stoi(regionreader);
-  tr->Close();
+  tr.Close();
 
   delete tr;
   return region;
@@ -372,9 +372,9 @@ std::wstring LaunchMethods::UserNameWrite()
 {
   std::wstring username;
   std::getline(std::wcin, username);
-  TextWriter *twx = gcnew StreamWriter(L"username.txt");
-  twx->WriteLine(username);
-  twx->Close();
+  TextWriter twx = gcnew StreamWriter(L"username.txt");
+  twx.WriteLine(username);
+  twx.Close();
 
   delete twx;
   return username;
@@ -384,9 +384,9 @@ std::wstring LaunchMethods::PasswordWrite()
 {
   std::wstring password = Program::ReadPassword();
   std::wstring filnamex = L"password.txt";
-  TextWriter *tw = gcnew StreamWriter(filnamex);
-  tw->WriteLine(password);
-  tw->Close();
+  TextWriter tw = gcnew StreamWriter(filnamex);
+  tw.WriteLine(password);
+  tw.Close();
 
 
   delete tw;
@@ -396,36 +396,36 @@ std::wstring LaunchMethods::PasswordWrite()
 std::wstring LaunchMethods::GenerateKey()
 {
   // Create an instance of Symetric Algorithm. Key and IV is generated automatically.
-  DES *desCrypto = DESCryptoServiceProvider::Create();
+  DES desCrypto = DESCryptoServiceProvider::Create();
 
 // Use the Automatically generated key for Encryption.
-  std::vector<unsigned char> proxy = desCrypto->Key;
-  std::wcout << ASCIIEncoding::ASCII->GetString(desCrypto->Key) << std::endl;
+  std::vector<unsigned char> proxy = desCrypto.Key;
+  std::wcout << ASCIIEncoding::ASCII.GetString(desCrypto.Key) << std::endl;
   //string SaverKey = System.Text.ASCIIEncoding.Default.GetString(proxy);
 
   File::WriteAllBytes(L"privatekey.txt", proxy);
-  return ASCIIEncoding::ASCII->GetString(desCrypto->Key);
+  return ASCIIEncoding::ASCII.GetString(desCrypto.Key);
 }
 
 void LaunchMethods::EncryptFile(const std::wstring &sInputFilename, const std::wstring &sOutputFilename, const std::wstring &sKey)
 {
-  FileStream *fsInput = gcnew FileStream(sInputFilename, FileMode::Open, FileAccess::ReadWrite);
+  FileStream fsInput = gcnew FileStream(sInputFilename, FileMode::Open, FileAccess::ReadWrite);
 
-  FileStream *fsEncrypted = gcnew FileStream(sOutputFilename, FileMode::Create, FileAccess::ReadWrite);
-  DESCryptoServiceProvider *DES = gcnew DESCryptoServiceProvider();
-  DES->Key = ASCIIEncoding::ASCII->GetBytes(sKey);
-  DES->IV = ASCIIEncoding::ASCII->GetBytes(sKey);
-  ICryptoTransform *desencrypt = DES->CreateEncryptor();
-  CryptoStream *cryptostream = gcnew CryptoStream(fsEncrypted, desencrypt, CryptoStreamMode::Write);
+  FileStream fsEncrypted = gcnew FileStream(sOutputFilename, FileMode::Create, FileAccess::ReadWrite);
+  DESCryptoServiceProvider DES = gcnew DESCryptoServiceProvider();
+  DES.Key = ASCIIEncoding::ASCII.GetBytes(sKey);
+  DES.IV = ASCIIEncoding::ASCII.GetBytes(sKey);
+  ICryptoTransform desencrypt = DES.CreateEncryptor();
+  CryptoStream cryptostream = gcnew CryptoStream(fsEncrypted, desencrypt, CryptoStreamMode::Write);
 
-  std::vector<unsigned char> bytearrayinput(fsInput->Length);
-  fsInput->Read(bytearrayinput, 0, bytearrayinput.size());
-  cryptostream->Write(bytearrayinput, 0, bytearrayinput.size());
-  cryptostream->Close();
+  std::vector<unsigned char> bytearrayinput(fsInput.Length);
+  fsInput.Read(bytearrayinput, 0, bytearrayinput.size());
+  cryptostream.Write(bytearrayinput, 0, bytearrayinput.size());
+  cryptostream.Close();
 
-  fsInput->Close();
+  fsInput.Close();
 
-  fsEncrypted->Close();
+  fsEncrypted.Close();
   File::Delete(sInputFilename);
 
 	delete cryptostream;
@@ -436,26 +436,26 @@ void LaunchMethods::EncryptFile(const std::wstring &sInputFilename, const std::w
 
 void LaunchMethods::DecryptFile(const std::wstring &sInputFilename, const std::wstring &sOutputFilename, const std::wstring &sKey)
 {
-  DESCryptoServiceProvider *DES = gcnew DESCryptoServiceProvider();
+  DESCryptoServiceProvider DES = gcnew DESCryptoServiceProvider();
   //A 64 bit key and IV is required for this provider.
   //Set secret key For DES algorithm.
-  DES->Key = ASCIIEncoding::ASCII->GetBytes(sKey);
+  DES.Key = ASCIIEncoding::ASCII.GetBytes(sKey);
   //Set initialization vector.
-  DES->IV = ASCIIEncoding::ASCII->GetBytes(sKey);
+  DES.IV = ASCIIEncoding::ASCII.GetBytes(sKey);
 
   //Create a file stream to read the encrypted file back.
-  FileStream *fsread = gcnew FileStream(sInputFilename, FileMode::Open, FileAccess::Read);
+  FileStream fsread = gcnew FileStream(sInputFilename, FileMode::Open, FileAccess::Read);
   //Create a DES decryptor from the DES instance.
-  ICryptoTransform *desdecrypt = DES->CreateDecryptor();
+  ICryptoTransform desdecrypt = DES.CreateDecryptor();
   //Create crypto stream set to read and do a 
   //DES decryption transform on incoming bytes.
-  CryptoStream *cryptostreamDecr = gcnew CryptoStream(fsread, desdecrypt, CryptoStreamMode::Read);
+  CryptoStream cryptostreamDecr = gcnew CryptoStream(fsread, desdecrypt, CryptoStreamMode::Read);
   //Print the contents of the decrypted file.
-  StreamWriter *fsDecrypted = gcnew StreamWriter(sOutputFilename);
+  StreamWriter fsDecrypted = gcnew StreamWriter(sOutputFilename);
   StreamReader tempVar(cryptostreamDecr);
-  fsDecrypted->Write((&tempVar)->ReadToEnd());
+  fsDecrypted.Write((&tempVar).ReadToEnd());
   //fsDecrypted.Flush();
-  fsDecrypted->Close();
+  fsDecrypted.Close();
 
 	delete fsDecrypted;
 //C# TO C++ CONVERTER TODO TASK: A 'delete cryptostreamDecr' statement was not added since cryptostreamDecr was passed to a method or constructor. Handle memory management manually.

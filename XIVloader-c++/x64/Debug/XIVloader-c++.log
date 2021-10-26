@@ -1,34 +1,16 @@
 ﻿cl : командная строка warning D9007: для "/C" требуется "/E, /EP или /P"; параметр пропущен
+  pch.cpp
+cl : командная строка warning D9007: для "/C" требуется "/E, /EP или /P"; параметр пропущен
+  AssemblyInfo.cpp
   frenchlaunch.cpp
   The contents of <filesystem> are available only with C++17 or later.
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.h(26,42): error C2871: csharp_cli_launcher_ffxiv: пространство имен с таким именем не существует
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.h(28,42): error C2871: csharp_cli_launcher_ffxiv: пространство имен с таким именем не существует
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(32,6): error C2819: тип "System::ConsoleKeyInfo" не имеет перегруженный "operator ->"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(32,6): message : возможно, имеется в виду "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(32,6): error C2232: ->System::ConsoleKeyInfo::KeyChar: левый операнд имеет тип "class", используйте "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(37,8): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(37,31): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(37,43): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(37,20): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,7): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,30): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,42): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,19): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,90): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,113): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,125): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,102): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,180): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,203): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,215): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(65,192): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(82,22): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(82,22): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(83,42): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(83,42): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(85,23): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(85,23): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(86,31): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(82,16): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(82,19): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(83,41): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(83,41): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(85,16): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(85,20): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(86,30): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(3111,32): message : может быть "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const _Elem)"
           with
           [
@@ -46,11 +28,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\
               _Elem=wchar_t
           ]
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2860,32): message : или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &&) noexcept"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(86,31): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(124,8): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(124,31): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(124,43): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(124,20): error C3861: fileExists: идентификатор не найден
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(86,30): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(89,15): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(89,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(90,14): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(90,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(165,52): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
@@ -63,47 +45,26 @@ C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(183,52): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(184,25): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(184,25): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(184,25): error C2065: gcgcnew: необъявленный идентификатор
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(184,33): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "StreamWriter"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(184,17): error C3622: System::IO::TextWriter: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(184,22): error C3767: System::IO::TextWriter::TextWriter: функции-кандидаты недоступны
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(186,44): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(186,44): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(187,31): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(187,22): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(187,30): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(187,21): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(187): message : см. объявление "System::IO::TextWriter::WriteLine"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(192,16): error C2440: delete: невозможно преобразовать "System::IO::TextWriter" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\frenchlaunch.cpp(192,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
   germanlaunch.cpp
   The contents of <filesystem> are available only with C++17 or later.
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.h(26,42): error C2871: csharp_cli_launcher_ffxiv: пространство имен с таким именем не существует
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.h(28,42): error C2871: csharp_cli_launcher_ffxiv: пространство имен с таким именем не существует
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(31,6): error C2819: тип "System::ConsoleKeyInfo" не имеет перегруженный "operator ->"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(31,6): message : возможно, имеется в виду "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(31,6): error C2232: ->System::ConsoleKeyInfo::KeyChar: левый операнд имеет тип "class", используйте "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(36,8): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(36,31): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(36,43): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(36,20): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,7): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,30): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,42): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,19): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,90): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,113): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,125): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,102): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,180): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,203): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,215): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(64,192): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(81,22): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(81,22): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(82,42): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(82,42): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(84,23): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(84,23): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(85,31): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(81,16): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(81,19): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(82,41): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(82,41): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(84,16): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(84,20): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(85,30): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(3111,32): message : может быть "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const _Elem)"
           with
           [
@@ -121,11 +82,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\
               _Elem=wchar_t
           ]
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2860,32): message : или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &&) noexcept"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(85,31): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(123,8): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(123,31): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(123,43): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(123,20): error C3861: fileExists: идентификатор не найден
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(85,30): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(88,15): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(88,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(89,14): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(89,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(164,52): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
@@ -138,45 +99,26 @@ C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(182,52): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(183,25): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(183,25): message : для продолжения работы компилятор заменил "*" на "^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(183,17): error C3622: System::IO::TextWriter: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(183,22): error C3767: System::IO::TextWriter::TextWriter: функции-кандидаты недоступны
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(185,44): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(185,44): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(186,31): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(186,22): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(186,30): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(186,21): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(186): message : см. объявление "System::IO::TextWriter::WriteLine"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(191,16): error C2440: delete: невозможно преобразовать "System::IO::TextWriter" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\germanlaunch.cpp(191,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
   japanlaunch.cpp
   The contents of <filesystem> are available only with C++17 or later.
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.h(26,42): error C2871: csharp_cli_launcher_ffxiv: пространство имен с таким именем не существует
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.h(28,42): error C2871: csharp_cli_launcher_ffxiv: пространство имен с таким именем не существует
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(31,6): error C2819: тип "System::ConsoleKeyInfo" не имеет перегруженный "operator ->"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(31,6): message : возможно, имеется в виду "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(31,6): error C2232: ->System::ConsoleKeyInfo::KeyChar: левый операнд имеет тип "class", используйте "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(36,8): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(36,31): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(36,43): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(36,20): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,7): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,30): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,42): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,19): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,90): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,113): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,125): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,102): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,180): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,203): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,215): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(64,192): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(81,22): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(81,22): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(82,42): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(82,42): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(84,23): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(84,23): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(85,31): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(81,16): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(81,19): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(82,41): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(82,41): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(84,16): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(84,20): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(85,30): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(3111,32): message : может быть "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const _Elem)"
           with
           [
@@ -194,11 +136,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\
               _Elem=wchar_t
           ]
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2860,32): message : или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &&) noexcept"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(85,31): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(123,8): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(123,31): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(123,43): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(123,20): error C3861: fileExists: идентификатор не найден
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(85,30): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(88,15): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(88,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(89,14): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(89,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(164,52): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
@@ -211,44 +153,26 @@ C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(1
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(182,52): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(183,25): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(183,25): message : для продолжения работы компилятор заменил "*" на "^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(183,17): error C3622: System::IO::TextWriter: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(183,22): error C3767: System::IO::TextWriter::TextWriter: функции-кандидаты недоступны
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(185,44): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(185,44): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(186,31): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(186,22): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(186,30): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(186,21): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(186): message : см. объявление "System::IO::TextWriter::WriteLine"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(191,16): error C2440: delete: невозможно преобразовать "System::IO::TextWriter" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\japanlaunch.cpp(191,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
   launchmethods.cpp
   The contents of <filesystem> are available only with C++17 or later.
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.h(26,42): error C2871: csharp_cli_launcher_ffxiv: пространство имен с таким именем не существует
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(31,5): error C2819: тип "System::ConsoleKeyInfo" не имеет перегруженный "operator ->"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(31,5): message : возможно, имеется в виду "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(31,5): error C2232: ->System::ConsoleKeyInfo::KeyChar: левый операнд имеет тип "class", используйте "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(36,7): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(36,30): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(36,42): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(36,19): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,7): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,30): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,42): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,19): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,90): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,113): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,125): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,102): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,180): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,203): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,215): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(65,192): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(82,21): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(82,21): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(83,41): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(83,41): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(85,22): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(85,22): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(86,30): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(82,15): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(82,18): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(83,40): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(83,40): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(85,15): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(85,19): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(86,29): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(3111,32): message : может быть "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const _Elem)"
           with
           [
@@ -266,11 +190,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\
               _Elem=wchar_t
           ]
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2860,32): message : или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &&) noexcept"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(86,30): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(131,7): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(131,30): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(131,42): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(131,19): error C3861: fileExists: идентификатор не найден
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(86,29): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(89,14): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(89,11): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(90,13): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(90,11): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(172,51): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
@@ -283,89 +207,88 @@ C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(190,51): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(191,24): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(191,24): message : для продолжения работы компилятор заменил "*" на "^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(191,16): error C3622: System::IO::TextWriter: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(191,21): error C3767: System::IO::TextWriter::TextWriter: функции-кандидаты недоступны
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(193,43): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(193,43): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(194,30): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(194,21): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(194,29): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(194,20): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(194): message : см. объявление "System::IO::TextWriter::WriteLine"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(220,22): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(220,22): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(221,47): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(221,47): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(199,15): error C2440: delete: невозможно преобразовать "System::IO::TextWriter" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(199,11): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(220,15): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(220,19): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(221,46): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(221,46): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(225,14): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(225,11): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(239,19): error C3673: System::Diagnostics::Process: у класса нет конструктора копии
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(280,19): error C3673: System::Diagnostics::Process: у класса нет конструктора копии
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(315,21): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(315,21): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(316,26): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(316,18): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(315,15): error C3622: System::IO::TextWriter: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(315,18): error C3767: System::IO::TextWriter::TextWriter: функции-кандидаты недоступны
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(316,25): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(316,17): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(316): message : см. объявление "System::IO::TextWriter::WriteLine"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(325,21): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(325,21): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(326,46): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(326,46): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(337,21): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(337,21): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(338,43): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(338,43): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(348,20): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(348,20): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(349,44): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(349,44): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(350,46): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(350,46): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(360,20): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(360,20): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(361,47): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(361,47): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(362,47): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(362,47): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(363,45): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(363,45): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(375,21): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(375,21): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(376,26): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(376,18): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(319,13): error C2440: delete: невозможно преобразовать "System::IO::TextWriter" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(319,11): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(325,15): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(325,18): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(326,45): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(326,45): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(331,13): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(331,11): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(337,15): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(337,18): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(338,42): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(338,42): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(342,13): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(342,11): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(348,14): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(348,17): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(349,43): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(349,43): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(350,45): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(350,45): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(354,12): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(354,10): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(360,14): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(360,17): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(361,46): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(361,46): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(362,46): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(362,46): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(363,44): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(363,44): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(367,12): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(367,10): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(375,14): error C3622: System::IO::TextWriter: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(375,18): error C3767: System::IO::TextWriter::TextWriter: функции-кандидаты недоступны
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(376,25): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(376,17): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(376): message : см. объявление "System::IO::TextWriter::WriteLine"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387,20): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387,20): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387,48): error C2664: "System::IO::StreamWriter::StreamWriter(System::IO::Stream ^)": невозможно преобразовать аргумент 1 из "std::wstring" в "System::IO::Stream ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387,48): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387,39): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(379,13): error C2440: delete: невозможно преобразовать "System::IO::TextWriter" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(379,10): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387,14): error C3622: System::IO::TextWriter: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387,47): error C2664: "System::IO::StreamWriter::StreamWriter(System::IO::Stream ^)": невозможно преобразовать аргумент 1 из "std::wstring" в "System::IO::Stream ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387,47): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387,38): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387): message : см. объявление "System::IO::StreamWriter::StreamWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(388,25): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(388,17): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(387): error C3767: System::IO::TextWriter::TextWriter: функции-кандидаты недоступны
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(388,24): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(388,16): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(388): message : см. объявление "System::IO::TextWriter::WriteLine"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(399,20): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Security::Cryptography::DES"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(399,20): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(402,52): error C2440: инициализация: невозможно преобразовать "cli::array<unsigned char,1> ^" в "std::vector<unsigned char,std::allocator<_Ty>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(392,12): error C2440: delete: невозможно преобразовать "System::IO::TextWriter" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(392,10): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(399,7): error C3622: System::Security::Cryptography::DES: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(399,17): error C3673: System::Security::Cryptography::DES: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(402,51): error C2440: инициализация: невозможно преобразовать "cli::array<unsigned char,1> ^" в "std::vector<unsigned char,std::allocator<_Ty>>"
           with
           [
               _Ty=unsigned char
           ]
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(402,52): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(403,65): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(464,39): message : может быть "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_streambuf<wchar_t,std::char_traits<wchar_t>> *)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(439,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(const void *)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(421,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(long double)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(403,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(double)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(385,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(float)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(367,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned __int64)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(349,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(__int64)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(331,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned long)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(313,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(long)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(294,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned int)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(268,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(int)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(249,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned short)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(215,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(short)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(197,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(bool)"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(192,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(187,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &))"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(182,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &))"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(403,65): message : при попытке сопоставить список аргументов "(std::wostream, System::String ^)"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(402,51): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(406,47): error C2664: "void System::IO::File::WriteAllBytes(System::String ^,cli::array<unsigned char,1> ^)": невозможно преобразовать аргумент 2 из "std::vector<unsigned char,std::allocator<_Ty>>" в "cli::array<unsigned char,1> ^"
           with
           [
@@ -373,97 +296,82 @@ C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp
           ]
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(406,42): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(406): message : см. объявление "System::IO::File::WriteAllBytes"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(407,57): error C2440: return: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(407,57): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412,25): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::FileStream"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412,25): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412,96): error C2664: "System::IO::FileStream::FileStream(System::String ^,System::IO::FileMode,System::IO::FileAccess)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412,96): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412,42): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412,95): error C2664: "System::IO::FileStream::FileStream(System::String ^,System::IO::FileMode,System::IO::FileAccess)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::String ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412,95): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412,41): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412): message : см. объявление "System::IO::FileStream::FileStream"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414,29): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::FileStream"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414,29): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414,103): error C2664: "System::IO::FileStream::FileStream(System::String ^,System::IO::FileMode,System::IO::FileAccess)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414,103): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414,46): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(412): error C3767: System::IO::FileStream::FileStream: функции-кандидаты недоступны
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414,102): error C2664: "System::IO::FileStream::FileStream(System::String ^,System::IO::FileMode,System::IO::FileAccess)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::String ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414,102): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414,45): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414): message : см. объявление "System::IO::FileStream::FileStream"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(415,35): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Security::Cryptography::DESCryptoServiceProvider"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(415,35): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(416,49): error C2664: "cli::array<unsigned char,1> ^System::Text::Encoding::GetBytes(cli::array<wchar_t,1> ^)": невозможно преобразовать аргумент 1 из "const std::wstring" в "cli::array<wchar_t,1> ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(416,45): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(416): message : см. объявление "System::Text::Encoding::GetBytes"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(417,48): error C2664: "cli::array<unsigned char,1> ^System::Text::Encoding::GetBytes(cli::array<wchar_t,1> ^)": невозможно преобразовать аргумент 1 из "const std::wstring" в "cli::array<wchar_t,1> ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(417,44): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(417): message : см. объявление "System::Text::Encoding::GetBytes"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(418,34): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Security::Cryptography::ICryptoTransform"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(418,34): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(419,32): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Security::Cryptography::CryptoStream"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(419,32): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(422,57): error C2664: "int System::IO::Stream::Read(cli::array<unsigned char,1> ^,int,int)": невозможно преобразовать аргумент 1 из "std::vector<unsigned char,std::allocator<_Ty>>" в "cli::array<unsigned char,1> ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(414): error C3767: System::IO::FileStream::FileStream: функции-кандидаты недоступны
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(415,32): error C3673: System::Security::Cryptography::DESCryptoServiceProvider: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(418,33): error C3149: "System::Security::Cryptography::ICryptoTransform": невозможно использовать здесь этот тип без "^" верхнего уровня
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(419,99): error C2664: "System::Security::Cryptography::CryptoStream::CryptoStream(System::IO::Stream ^,System::Security::Cryptography::ICryptoTransform ^,System::Security::Cryptography::CryptoStreamMode)": невозможно преобразовать аргумент 1 из "System::IO::FileStream" в "System::IO::Stream ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(419,99): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(419,50): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(419): message : см. объявление "System::Security::Cryptography::CryptoStream::CryptoStream"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(419): error C2512: System::Security::Cryptography::CryptoStream::CryptoStream: нет подходящего конструктора по умолчанию
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(422,56): error C2664: "int System::IO::Stream::Read(cli::array<unsigned char,1> ^,int,int)": невозможно преобразовать аргумент 1 из "std::vector<unsigned char,std::allocator<_Ty>>" в "cli::array<unsigned char,1> ^"
           with
           [
               _Ty=unsigned char
           ]
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(422,17): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(422,16): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(422): message : см. объявление "System::IO::Stream::Read"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(423,63): error C2664: "void System::IO::Stream::Write(cli::array<unsigned char,1> ^,int,int)": невозможно преобразовать аргумент 1 из "std::vector<unsigned char,std::allocator<_Ty>>" в "cli::array<unsigned char,1> ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(423,62): error C2664: "void System::IO::Stream::Write(cli::array<unsigned char,1> ^,int,int)": невозможно преобразовать аргумент 1 из "std::vector<unsigned char,std::allocator<_Ty>>" в "cli::array<unsigned char,1> ^"
           with
           [
               _Ty=unsigned char
           ]
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(423,23): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(423,22): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(423): message : см. объявление "System::IO::Stream::Write"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(429,30): error C2664: "void System::IO::File::Delete(System::String ^)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::String ^"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(429,30): message : Оператор определенного пользователем преобразования недоступен, или
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(429,16): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(429): message : см. объявление "System::IO::File::Delete"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(439,35): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Security::Cryptography::DESCryptoServiceProvider"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(439,35): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(442,49): error C2664: "cli::array<unsigned char,1> ^System::Text::Encoding::GetBytes(cli::array<wchar_t,1> ^)": невозможно преобразовать аргумент 1 из "const std::wstring" в "cli::array<wchar_t,1> ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(442,45): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(442): message : см. объявление "System::Text::Encoding::GetBytes"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(444,48): error C2664: "cli::array<unsigned char,1> ^System::Text::Encoding::GetBytes(cli::array<wchar_t,1> ^)": невозможно преобразовать аргумент 1 из "const std::wstring" в "cli::array<wchar_t,1> ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(444,44): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(444): message : см. объявление "System::Text::Encoding::GetBytes"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447,24): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::FileStream"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447,24): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447,90): error C2664: "System::IO::FileStream::FileStream(System::String ^,System::IO::FileMode,System::IO::FileAccess)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447,90): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447,41): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(431,21): error C2440: delete: невозможно преобразовать "System::Security::Cryptography::CryptoStream" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(431,9): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(432,12): error C2440: delete: невозможно преобразовать "System::Security::Cryptography::DESCryptoServiceProvider" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(432,9): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(434,16): error C2440: delete: невозможно преобразовать "System::IO::FileStream" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(434,9): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(439,32): error C3673: System::Security::Cryptography::DESCryptoServiceProvider: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447,89): error C2664: "System::IO::FileStream::FileStream(System::String ^,System::IO::FileMode,System::IO::FileAccess)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::String ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447,89): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447,40): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447): message : см. объявление "System::IO::FileStream::FileStream"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(449,34): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Security::Cryptography::ICryptoTransform"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(449,34): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(452,36): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Security::Cryptography::CryptoStream"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(452,36): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454,31): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::StreamWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454,31): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454,66): error C2664: "System::IO::StreamWriter::StreamWriter(System::IO::Stream ^)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::IO::Stream ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454,66): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454,50): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(447): error C3767: System::IO::FileStream::FileStream: функции-кандидаты недоступны
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(449,33): error C3149: "System::Security::Cryptography::ICryptoTransform": невозможно использовать здесь этот тип без "^" верхнего уровня
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(452,97): error C2664: "System::Security::Cryptography::CryptoStream::CryptoStream(System::IO::Stream ^,System::Security::Cryptography::ICryptoTransform ^,System::Security::Cryptography::CryptoStreamMode)": невозможно преобразовать аргумент 1 из "System::IO::FileStream" в "System::IO::Stream ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(452,97): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(452,54): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(452): message : см. объявление "System::Security::Cryptography::CryptoStream::CryptoStream"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(452): error C2512: System::Security::Cryptography::CryptoStream::CryptoStream: нет подходящего конструктора по умолчанию
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454,65): error C2664: "System::IO::StreamWriter::StreamWriter(System::IO::Stream ^)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::IO::Stream ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454,65): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454,49): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454): message : см. объявление "System::IO::StreamWriter::StreamWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(456,23): error C3072: оператор "&" не может быть применен к экземпляру класса ref
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(454): error C3767: System::IO::StreamWriter::StreamWriter: функции-кандидаты недоступны
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(455,40): error C2664: "System::IO::StreamReader::StreamReader(System::IO::Stream ^)": невозможно преобразовать аргумент 1 из "System::Security::Cryptography::CryptoStream" в "System::IO::Stream ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(455,40): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(455,24): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(455): message : см. объявление "System::IO::StreamReader::StreamReader"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(456,22): error C3072: оператор "&" не может быть применен к экземпляру класса ref
           используйте унарный оператор "%", чтобы преобразовать экземпляр класса ref в тип дескриптора
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(460,20): error C2440: delete: невозможно преобразовать "System::IO::StreamWriter" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(460,9): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(463,12): error C2440: delete: невозможно преобразовать "System::Security::Cryptography::DESCryptoServiceProvider" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.cpp(463,9): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
   network.cpp
   The contents of <filesystem> are available only with C++17 or later.
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(21,1): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Diagnostics::Process"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(21,1): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(21,1): error C2556: System::Diagnostics::Process ^networklogic::LaunchGame(const std::wstring &,const std::wstring &,int,bool,int,bool,int): перегруженная функция отличается от "System::Diagnostics::Process networklogic::LaunchGame(const std::wstring &,const std::wstring &,int,bool,int,bool,int)" только возвращаемым типом
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.h(34): message : см. объявление "networklogic::LaunchGame"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(20,24): error C2373: networklogic::LaunchGame: переопределение; различные модификаторы типа
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.h(34): message : см. объявление "networklogic::LaunchGame"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(24,24): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Diagnostics::Process"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(24,24): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(27,71): error C2664: "void System::Diagnostics::ProcessStartInfo::FileName::set(System::String ^)": невозможно преобразовать аргумент 1 из "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(27,71): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(27,46): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(27): message : см. объявление "System::Diagnostics::ProcessStartInfo::FileName::set"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(31,66): error C2664: "void System::Diagnostics::ProcessStartInfo::FileName::set(System::String ^)": невозможно преобразовать аргумент 1 из "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(31,66): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(31,46): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(31): message : см. объявление "System::Diagnostics::ProcessStartInfo::FileName::set"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(34,51): error C2039: "Format": не является членом "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>".
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(24,21): error C3673: System::Diagnostics::Process: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(34,49): error C2039: "Format": не является членом "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>".
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(4921): message : см. объявление "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(34,57): error C3861: Format: идентификатор не найден
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(34,55): error C3861: Format: идентификатор не найден
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(44,19): error C2440: return: невозможно преобразовать "System::Diagnostics::Process" в "System::Diagnostics::Process"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(44,19): message : Создать class "System::Diagnostics::Process" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(50,128): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "const std::runtime_error" (или приемлемое преобразование отсутствует)
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(464,39): message : может быть "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_streambuf<wchar_t,std::char_traits<wchar_t>> *)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(439,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(const void *)"
@@ -559,6 +467,8 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(187,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &))"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(182,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &))"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(66,142): message : при попытке сопоставить список аргументов "(std::basic_ostream<wchar_t,std::char_traits<wchar_t>>, const std::runtime_error)"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(71,16): error C2440: return: невозможно преобразовать "nullptr" в "System::Diagnostics::Process"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(71,2): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(84,82): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "const std::runtime_error" (или приемлемое преобразование отсутствует)
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(464,39): message : может быть "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_streambuf<wchar_t,std::char_traits<wchar_t>> *)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(439,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(const void *)"
@@ -578,49 +488,34 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(187,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &))"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(182,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &))"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(84,82): message : при попытке сопоставить список аргументов "(std::basic_ostream<wchar_t,std::char_traits<wchar_t>>, const std::runtime_error)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(87,25): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Net::WebClient"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(87,25): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(89,50): error C2664: "void System::Collections::Specialized::NameValueCollection::Add(System::String ^,System::String ^)": невозможно преобразовать аргумент 2 из "const std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(89,50): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(89,41): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(89): message : см. объявление "System::Collections::Specialized::NameValueCollection::Add"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(107,39): error C2664: "System::String ^System::Net::WebClient::UploadString(System::String ^,System::String ^)": невозможно преобразовать аргумент 1 из "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(107,39): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(107,27): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(87,22): error C3673: System::Net::WebClient: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(102,20): error C2440: delete: невозможно преобразовать "System::Net::WebClient" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(102,11): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(107,38): error C2664: "System::String ^System::Net::WebClient::UploadString(System::String ^,System::String ^)": невозможно преобразовать аргумент 1 из "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>" в "System::String ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(107,38): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(107,26): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(107): message : см. объявление "System::Net::WebClient::UploadString"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(111,31): error C2039: "Format": не является членом "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>".
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(4921): message : см. объявление "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(111,37): error C3861: Format: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(115,57): error C2440: return: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(115,57): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(120,25): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Net::WebClient"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(120,25): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(121,50): error C2664: "void System::Collections::Specialized::NameValueCollection::Add(System::String ^,System::String ^)": невозможно преобразовать аргумент 2 из "const std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(121,50): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(121,41): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(121): message : см. объявление "System::Collections::Specialized::NameValueCollection::Add"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(122,189): error C2664: "System::String ^System::Net::WebClient::DownloadString(System::String ^)": невозможно преобразовать аргумент 1 из "std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(122,189): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(122,75): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(114,18): error C2440: delete: невозможно преобразовать "System::Net::WebClient" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(114,9): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(115,56): error C2440: return: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(115,56): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(120,22): error C3673: System::Net::WebClient: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(122,188): error C2664: "System::String ^System::Net::WebClient::DownloadString(System::String ^)": невозможно преобразовать аргумент 1 из "std::wstring" в "System::String ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(122,188): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(122,74): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(122): message : см. объявление "System::Net::WebClient::DownloadString"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(124,20): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Text::RegularExpressions::Regex"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(124,20): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(126,39): error C2664: "System::Text::RegularExpressions::MatchCollection ^System::Text::RegularExpressions::Regex::Matches(System::String ^)": невозможно преобразовать аргумент 1 из "std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(126,39): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(126,34): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(126): message : см. объявление "System::Text::RegularExpressions::Regex::Matches"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(130,15): error C3536: stored: не может использоваться до инициализации
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(130,15): error C2440: return: невозможно преобразовать "int" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(130,15): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(124,85): error C2059: синтаксическая ошибка: )
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(124): error C3767: System::Text::RegularExpressions::Regex::Regex: функции-кандидаты недоступны
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(124,86): error C2001: newline в константе
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(128,17): error C2440: delete: невозможно преобразовать "System::Text::RegularExpressions::Regex" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(128,9): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(129,18): error C2440: delete: невозможно преобразовать "System::Net::WebClient" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(129,9): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(130,9): error C2065: stored: необъявленный идентификатор
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(138,23): error C3673: System::Net::WebClient: у класса нет конструктора копии
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(139,50): error C2664: "void System::Collections::Specialized::NameValueCollection::Add(System::String ^,System::String ^)": невозможно преобразовать аргумент 2 из "const std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(139,50): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(139,41): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(139): message : см. объявление "System::Collections::Specialized::NameValueCollection::Add"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(140,178): error C2664: "void System::Collections::Specialized::NameValueCollection::Add(System::String ^,System::String ^)": невозможно преобразовать аргумент 2 из "std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(140,178): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(140,64): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(140): message : см. объявление "System::Collections::Specialized::NameValueCollection::Add"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(151,4): error C3321: список инициализаторов является неожиданным в этом контексте
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(145,40): error C2440: инициализация: невозможно преобразовать "cli::array<unsigned char,1> ^" в "std::vector<unsigned char,std::allocator<_Ty>>"
           with
@@ -628,24 +523,24 @@ C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(145,4
               _Ty=unsigned char
           ]
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(151,6): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(153,73): error C2664: "System::String ^System::Text::Encoding::GetString(cli::array<unsigned char,1> ^)": невозможно преобразовать аргумент 1 из "std::vector<unsigned char,std::allocator<_Ty>>" в "cli::array<unsigned char,1> ^"
-          with
-          [
-              _Ty=unsigned char
-          ]
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(153,65): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(153): message : см. объявление "System::Text::Encoding::GetString"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(155,19): error C3699: *: это косвенное обращение невозможно использовать для типа "System::Text::RegularExpressions::Regex"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(155,19): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(156,39): error C2664: "System::Text::RegularExpressions::MatchCollection ^System::Text::RegularExpressions::Regex::Matches(System::String ^)": невозможно преобразовать аргумент 1 из "std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(156,39): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(156,34): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(155,56): error C2664: "System::Text::RegularExpressions::Regex::Regex(System::String ^)": невозможно преобразовать аргумент 1 из "System::Text::RegularExpressions::Regex ^" в "System::String ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(155,56): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(155,29): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(155): message : см. объявление "System::Text::RegularExpressions::Regex::Regex"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(156,38): error C2664: "System::Text::RegularExpressions::MatchCollection ^System::Text::RegularExpressions::Regex::Matches(System::String ^)": невозможно преобразовать аргумент 1 из "std::wstring" в "System::String ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(156,38): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(156,33): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(156): message : см. объявление "System::Text::RegularExpressions::Regex::Matches"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(157,7): error C3536: matches: не может использоваться до инициализации
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(168,35): error C2664: "System::Text::RegularExpressions::MatchCollection ^System::Text::RegularExpressions::Regex::Matches(System::String ^)": невозможно преобразовать аргумент 1 из "std::wstring" в "System::String ^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(168,35): message : Оператор определенного пользователем преобразования недоступен, или
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(168,30): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(157,16): error C2039: "Count": не является членом "System::Int32".
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(163,18): error C2440: delete: невозможно преобразовать "System::Text::RegularExpressions::Regex" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(163,13): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(168,34): error C2664: "System::Text::RegularExpressions::MatchCollection ^System::Text::RegularExpressions::Regex::Matches(System::String ^)": невозможно преобразовать аргумент 1 из "std::wstring" в "System::String ^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(168,34): message : Оператор определенного пользователем преобразования недоступен, или
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(168,29): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(168): message : см. объявление "System::Text::RegularExpressions::Regex::Matches"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(170,16): error C2440: delete: невозможно преобразовать "System::Text::RegularExpressions::Regex" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(170,11): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(171,14): error C3536: sid: не может использоваться до инициализации
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(171,14): error C2440: return: невозможно преобразовать "int" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(171,14): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
@@ -683,9 +578,10 @@ C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(202):
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(206,42): error C2039: "Join": не является членом "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>".
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(4921): message : см. объявление "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(206,56): error C3536: hash: не может использоваться до инициализации
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(206,75): error C2039: "any": не является членом "std".
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(206,57): error C2039: "Select": не является членом "System::Int32".
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(206,74): error C2039: "any": не является членом "std".
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\codecvt(23): message : см. объявление "std"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(206,79): error C2061: синтаксическая ошибка: идентификатор "any"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(206,78): error C2061: синтаксическая ошибка: идентификатор "any"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(208,10): error C2065: b: необъявленный идентификатор
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(206,46): error C3861: Join: идентификатор не найден
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(211,24): error C2664: "System::IO::FileInfo::FileInfo(System::String ^)": невозможно преобразовать аргумент 1 из "const std::wstring" в "System::String ^"
@@ -716,7 +612,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(187,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &))"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\ostream(182,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &))"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(232,56): message : при попытке сопоставить список аргументов "(std::basic_ostream<wchar_t,std::char_traits<wchar_t>>, const std::runtime_error)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(241,21): error C2059: синтаксическая ошибка: ->
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(241,21): error C2059: синтаксическая ошибка: .
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(242,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(243,5): error C2562: networklogic::InitiateSslTrust: функция типа "void", возвращающая значение
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(238): message : см. объявление "networklogic::InitiateSslTrust"
@@ -733,116 +629,45 @@ C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\network.cpp(268,6
           ]
   Program.cpp
   The contents of <filesystem> are available only with C++17 or later.
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(30,48): error C2440: инициализация: невозможно преобразовать "System::ConsoleKeyInfo" в "System::ConsoleKeyInfo *"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(30,24): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(54,33): error C2440: =: невозможно преобразовать "System::ConsoleKeyInfo" в "System::ConsoleKeyInfo *"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(54,27): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(63,10): error C2059: синтаксическая ошибка: ->
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(64,10): error C2059: синтаксическая ошибка: ->
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(67,10): error C2059: синтаксическая ошибка: ->
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(63,10): error C2059: синтаксическая ошибка: .
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(64,10): error C2059: синтаксическая ошибка: .
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(67,10): error C2059: синтаксическая ошибка: .
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(81,47): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\Program.cpp(81,47): message : при попытке сопоставить список аргументов "(System::String ^)"
   program_main.cpp
   The contents of <filesystem> are available only with C++17 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xmemory(681,1): error C2664: "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)": невозможно преобразовать аргумент 1 из "char *" в "std::initializer_list<_Elem>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\program_main.cpp(23,57): error C2664: "std::vector<std::wstring,std::allocator<_Ty>>::vector(const unsigned __int64,const _Alloc &)": невозможно преобразовать аргумент 2 из "int" в "const _Alloc &"
           with
           [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
+              _Ty=std::wstring,
+              _Alloc=std::allocator<std::wstring>
           ]
           and
           [
-              _Elem=wchar_t
+              _Alloc=std::allocator<std::wstring>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xmemory(681,68): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2968,5): message : см. объявление "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string"
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xmemory(1653): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,char*&>(_Alloc &,_Objty *const ,char *&)"
-          with
-          [
-              _Alloc=std::allocator<std::wstring>,
-              _Ty=std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,
-              _Objty=std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xmemory(1653): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,char*&>(_Alloc &,_Objty *const ,char *&)"
-          with
-          [
-              _Alloc=std::allocator<std::wstring>,
-              _Ty=std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,
-              _Objty=std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xmemory(1692): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<char*&>(char *&)"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\program_main.cpp(23,57): message : Причина: невозможно преобразовать "int" в "const _Alloc"
           with
           [
               _Alloc=std::allocator<std::wstring>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xmemory(1692): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<char*&>(char *&)"
-          with
-          [
-              _Alloc=std::allocator<std::wstring>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\vector(1660): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> *std::_Uninitialized_copy<_Ty,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>(const _InIt,const _InIt,std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> *,_Alloc &)"
-          with
-          [
-              _Ty=char **,
-              _InIt=char **,
-              _Alloc=std::allocator<std::wstring>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\vector(496): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<std::wstring,std::allocator<_Ty>>::_Construct_n<char**,char**>(const unsigned __int64,char **&&,char **&&)"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\program_main.cpp(23,51): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\vector(478,5): message : см. объявление "std::vector<std::wstring,std::allocator<_Ty>>::vector"
           with
           [
               _Ty=std::wstring
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\vector(496): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<std::wstring,std::allocator<_Ty>>::_Construct_n<char**,char**>(const unsigned __int64,char **&&,char **&&)"
-          with
-          [
-              _Ty=std::wstring
-          ]
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\program_main.cpp(23): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::vector<std::wstring,std::allocator<_Ty>>::vector<char**,0>(_Iter,_Iter,const _Alloc &)"
-          with
-          [
-              _Ty=std::wstring,
-              _Iter=char **,
-              _Alloc=std::allocator<std::wstring>
-          ]
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\program_main.cpp(23): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::vector<std::wstring,std::allocator<_Ty>>::vector<char**,0>(_Iter,_Iter,const _Alloc &)"
-          with
-          [
-              _Ty=std::wstring,
-              _Iter=char **,
-              _Alloc=std::allocator<std::wstring>
           ]
   russianlaunch.cpp
   The contents of <filesystem> are available only with C++17 or later.
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\launchmethods.h(26,42): error C2871: csharp_cli_launcher_ffxiv: пространство имен с таким именем не существует
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.h(28,42): error C2871: csharp_cli_launcher_ffxiv: пространство имен с таким именем не существует
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(33,6): error C2819: тип "System::ConsoleKeyInfo" не имеет перегруженный "operator ->"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(33,6): message : возможно, имеется в виду "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(33,6): error C2232: ->System::ConsoleKeyInfo::KeyChar: левый операнд имеет тип "class", используйте "."
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(38,8): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(38,31): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(38,43): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(38,20): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,7): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,30): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,42): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,19): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,90): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,113): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,125): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,102): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,180): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,203): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,215): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(66,192): error C3861: fileExists: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(83,22): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(83,22): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(84,42): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(84,42): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(86,23): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextReader"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(86,23): message : для продолжения работы компилятор заменил "*" на "^"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(87,31): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(83,16): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(83,19): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(84,41): error C2440: инициализация: невозможно преобразовать "System::String ^" в "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(84,41): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(86,16): error C3622: System::IO::TextReader: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(86,20): error C3673: System::IO::TextReader: у класса нет конструктора копии
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(87,30): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "System::String ^" (или приемлемое преобразование отсутствует)
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(3111,32): message : может быть "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(const _Elem)"
           with
           [
@@ -860,11 +685,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\
               _Elem=wchar_t
           ]
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\xstring(2860,32): message : или       "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::operator =(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &&) noexcept"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(87,31): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(125,8): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(125,31): error C2653: FileSystem: не является именем класса или пространства имен
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(125,43): error C3861: getCurrentDirectory: идентификатор не найден
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(125,20): error C3861: fileExists: идентификатор не найден
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(87,30): message : при попытке сопоставить список аргументов "(std::wstring, System::String ^)"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(90,15): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(90,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(91,14): error C2440: delete: невозможно преобразовать "System::IO::TextReader" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(91,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(166,52): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
@@ -877,13 +702,15 @@ C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(184,52): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(185,25): error C3699: *: это косвенное обращение невозможно использовать для типа "System::IO::TextWriter"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(185,25): message : для продолжения работы компилятор заменил "*" на "^"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(185,17): error C3622: System::IO::TextWriter: класс, объявленный как "abstract", не предусматривает создание экземпляров
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(185,22): error C3767: System::IO::TextWriter::TextWriter: функции-кандидаты недоступны
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(187,44): error C2665: std::stoi: ни одна из 2 перегрузок не может преобразовать все типы аргументов
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(267,23): message : может быть "int std::stoi(const std::wstring &,size_t *,int)"
 C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.30.30704\include\string(86,23): message : или       "int std::stoi(const std::string &,size_t *,int)"
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(187,44): message : при попытке сопоставить список аргументов "(System::String ^)"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(188,31): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
-C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(188,22): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(188,30): error C2664: "void System::IO::TextWriter::WriteLine(wchar_t)": невозможно преобразовать аргумент 1 из "std::wstring" в "wchar_t"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(188,21): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
 C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(188): message : см. объявление "System::IO::TextWriter::WriteLine"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(193,16): error C2440: delete: невозможно преобразовать "System::IO::TextWriter" в "void*"
+C:\Users\AndreySavich\source\repos\XIVloader-c++\XIVloader-c++\russianlaunch.cpp(193,12): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
   Создание кода...

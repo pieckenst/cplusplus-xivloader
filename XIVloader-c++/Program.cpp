@@ -27,15 +27,15 @@ namespace csharp_cli_launcher_ffxiv
 	std::wstring Program::ReadPassword()
 	{
 		std::wstring password = L"";
-		ConsoleKeyInfo *info = Console::ReadKey(true);
-		while (info->Key != ConsoleKey::Enter)
+		ConsoleKeyInfo info = Console::ReadKey(true);
+		while (info.Key != ConsoleKey::Enter)
 		{
-			if (info->Key != ConsoleKey::Backspace)
+			if (info.Key != ConsoleKey::Backspace)
 			{
-				std::wcout << L"*";
-				password += info->KeyChar;
+				std::wcout << L"";
+				password += info.KeyChar;
 			}
-			else if (info->Key == ConsoleKey::Backspace)
+			else if (info.Key == ConsoleKey::Backspace)
 			{
 				if (!password.empty())
 				{
@@ -60,11 +60,11 @@ namespace csharp_cli_launcher_ffxiv
 
 	void Program::Main(std::vector<std::wstring> &args)
 	{
-		Console->Title = L"XIVLOADER";
-		Console->OutputEncoding = System::Text::Encoding::Unicode;
+		Console.Title = L"XIVLOADER";
+		Console.OutputEncoding = System::Text::Encoding::Unicode;
 
 		auto arr = std::vector<std::wstring> {LR"(                                             )", LR"( __  _______   ___                 _         )", LR"( \ \/ /_ _\ \ / / |   ___  __ _ __| |___ _ _ )", LR"(  >  < | | \ V /| |__/ _ \/ _` / _` / -_) '_| )", LR"( /_/\_\___| \_/ |____\___/\__,_\__,_\___|_|  )", LR"(                                             )"};
-		Console->WindowWidth = 160;
+		Console.WindowWidth = 160;
 		std::wcout << L"\n\n" << std::endl;
 		for (auto line : arr)
 		{

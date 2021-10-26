@@ -29,12 +29,12 @@ void FrenchLaunchMethod::FrenchLaunch(int language)
 		std::wcout << std::endl;
 		std::wcout << L"-------------------------------------" << std::endl;
 
-		if (ansys->KeyChar == L'1')
+		if (ansys.KeyChar == L'1')
 		{
 			//Console.WriteLine("-------------------------------------");
 			std::wcout << std::endl;
 			std::wstring gamePath;
-			if (FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\gamepath.txt)"))
+			if (File::Exists(Directory::GetCurrentDirectory() + LR"(\gamepath.txt)"))
 			{
 			  gamePath = LaunchMethods::GamePathLoad();
 			}
@@ -62,7 +62,7 @@ void FrenchLaunchMethod::FrenchLaunch(int language)
 			//Console.WriteLine("Provided username {0}", username);
 
 			std::wstring password;
-		if (FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\password.txt)") || FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\password.XIVloadEnc)") && FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\username.txt)"))
+		if (File::Exists(Directory::GetCurrentDirectory() + LR"(\password.txt)") || File::Exists(Directory::GetCurrentDirectory() + LR"(\password.XIVloadEnc)") && File::Exists(Directory::GetCurrentDirectory() + LR"(\username.txt)"))
 		{
 			  bool promter = false;
 			  std::wcout << L"Souhaitez-vous utiliser le login et le mot de passe enregistrés existants? - ";
@@ -79,12 +79,12 @@ void FrenchLaunchMethod::FrenchLaunch(int language)
 			  if (promter == true)
 			  {
 				username = LaunchMethods::ReturnUsername();
-				TextReader *tr = gcnew StreamReader(L"privatekey.txt");
-				std::wstring keyread = tr->ReadLine();
+				TextReader tr = gcnew StreamReader(L"privatekey.txt");
+				std::wstring keyread = tr.ReadLine();
 				LaunchMethods::DecryptFile(L"password.XIVloadEnc", L"password.txt", keyread);
-				TextReader *prr = gcnew StreamReader(L"password.txt");
-				password = prr->ReadLine();
-				prr->Close();
+				TextReader prr = gcnew StreamReader(L"password.txt");
+				password = prr.ReadLine();
+				prr.Close();
 
 				delete prr;
 				delete tr;
@@ -107,7 +107,7 @@ void FrenchLaunchMethod::FrenchLaunch(int language)
 			}
 			//string maskpassword = "";
 			//for (int i = 0; i < password.Length; i++) { 
-			//maskpassword += "*"; 
+			//maskpassword += ""; 
 			//}
 
 
@@ -121,7 +121,7 @@ void FrenchLaunchMethod::FrenchLaunch(int language)
 			bool dx11 = false;
 			int expansionLevel;
 			int region;
-			if (FileSystem::fileExists(FileSystem::getCurrentDirectory() + LR"(\booleansandvars.txt)"))
+			if (File::Exists(Directory::GetCurrentDirectory() + LR"(\booleansandvars.txt)"))
 			{
 			   bool promterx = false;
 			   std::wcout << L"Souhaitez-vous charger les paramètres existants? - ";
@@ -181,13 +181,13 @@ void FrenchLaunchMethod::FrenchLaunch(int language)
 			  }
 			  std::wcout << L"Veuillez saisir le niveau de votre pack d'extension - Les versions actuellement valides sont \n 0- ARR - 1 - Heavensward - 2 - Stormblood - 3 - Shadowbringers" << std::endl;
 			  expansionLevel = std::stoi(Console::ReadLine());
-			  TextWriter *twxx = gcgcnew StreamWriter(L"booleansandvars.txt");
+			  TextWriter twxx = gcnew StreamWriter(L"booleansandvars.txt");
 			  std::wcout << L"Veuillez indiquer une région pour l'installation de votre client - Les régions actuellement valides sont \n 1- Japan , 2 - America , 3 - International: - ";
 			  region = std::stoi(Console::ReadLine());
-			  twxx->WriteLine(dx1prompt);
-			  twxx->WriteLine(expansionLevel);
-			  twxx->WriteLine(region);
-			  twxx->Close();
+			  twxx.WriteLine(dx1prompt);
+			  twxx.WriteLine(expansionLevel);
+			  twxx.WriteLine(region);
+			  twxx.Close();
 
 				delete twxx;
 			}

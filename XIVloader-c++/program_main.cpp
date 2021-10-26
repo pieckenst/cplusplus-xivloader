@@ -18,7 +18,7 @@ using namespace System::Text;
 using namespace System::Text::RegularExpressions;
 using namespace Microsoft::Win32;
 
-int main(int argc, char **argv)
+int main(int argc, char argv)
 {
     std::vector<std::wstring> args(argv + 1, argv + argc);
     csharp_cli_launcher_ffxiv::Program::Main(args);
